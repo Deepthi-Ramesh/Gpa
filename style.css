@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 93vh;
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    background-color: #beedd5;
+}
+.Main-container{
+
+    width:100%;
+    height: 100%;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head{
+    width:18%;
+    height:10%;
+    font-size: 0.8rem;
+    margin:1rem ;
+    padding:1rem ;
+    color:white;
+    border-radius: 0.5rem;
+    background-color:#128a6e;
+
+}.container{
+    width:80%;
+    height: 90%;
+    margin: 2rem auto;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.reg{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    height: 20%;
+    padding:1rem;
+    font-size: 1.5rem;
+   
+}
+#regulation{
+    width:30%;
+    height: 45%;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+.dept{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    height:20%;
+    
+    padding:1rem;
+    font-size: 1.5rem;
+    
+}
+#department{
+    width:30%;
+    height: 45%;
+    margin:0 1rem;
+    font-size: 1.2rem;
+}
+.sem{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    height: 20%;
+    
+    padding:1rem;
+    font-size: 1.5rem;
+    
+}
+#semester{
+    width:30%;
+    height: 45%;
+    margin:0 1rem;
+    font-size: 1.2rem;
+}
+button{
+    width: 15%;
+    height: 10%;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    background-color:#128a6e;
+    color: white;
+    border-radius: 0.3rem;
+    outline: none;
+    box-shadow: none;
+}
+ @media (min-width:0px) and (max-width:767px){
+     body{
+         font-size: 17px;
+     }
+     .Main-container{
+         width: 100%;
+         height: auto;
+     }
+     .head{
+         width:47%;
+         height: 8%;
+         margin-top: 2rem;
+         margin-bottom: 0;
+         font-size: 0.5rem;
+     }
+     .container{
+         width:90%;
+         padding: 0;
+         
+        }
+     .reg{
+          width:90%;
+          
+          flex-direction: column;
+          font-size: 1.2rem;
+          margin:0;
+          justify-content: none;
+          }
+     #regulation{
+         margin:1rem;
+         width: 50%;
+     }
+     .dept{
+        width:90%;
+       
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin:0;
+        justify-content: none;
+     }
+     #department{
+         margin: 1rem;
+         width: 50%;
+     }
+     .sem{
+        width:90%; 
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin:0;
+        justify-content: none;
+     }
+     #semester{
+         margin:1rem;
+         width: 50%;
+     }
+     button{
+         width: 50%;
+         margin: 1.3rem;
+         border:none;
+         outline: none;
+     }
+ }
